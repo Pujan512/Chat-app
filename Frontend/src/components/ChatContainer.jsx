@@ -35,7 +35,7 @@ const ChatContainer = () => {
   }
 
   return (
-    <div className='flex flex-1 flex-col overflow-auto'>
+    <div className='flex flex-1 flex-col overflow-y-auto h-[85vh]'>
       <ChatHeader />
 
       <div className='flex flex-1 flex-col p-4 space-y-4 overflow-y-auto'>
